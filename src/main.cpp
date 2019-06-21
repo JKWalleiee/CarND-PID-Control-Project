@@ -57,7 +57,7 @@ int main() {
           double angle = std::stod(j[1]["steering_angle"].get<string>());
           double steer_value;
           
-          //Calculate steering value here
+          // Calculate steering value here
           pid.UpdateError(cte);
           steer_value = -pid.TotalError();
           
