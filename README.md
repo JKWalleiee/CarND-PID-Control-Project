@@ -83,4 +83,8 @@ The parameters were chosen manually by trial and error. Following the next steps
 
 - Then, I add a differential portion to try to overcome the overshooting, using a initial value of 2.0. From here, I increased the value of the differential factor until achieving an acceptable behavior in the follow-up of the reference, that is, the central line.
 
-Originally I wanted to tune the controller to reduce the overshoot and establishment time of the system, however, I observed that tuning the controller by trial and error to reduce the error in the reference, that is, the vehicle oscillations, the result was satisfactory. So I started modifying the P and D portions of my PD controller. The final parameters of my PID controller were:{0.15, 0, 4.0}
+Originally I wanted to tune the controller to reduce the overshoot and establishment time of the system, however, I observed that tuning the controller by trial and error to reduce the error in the reference, that is, the vehicle oscillations, the result was satisfactory. So I started modifying the P and D portions of my PD controller. The final parameters of my PID controller were: {0.15, 0, 4.0}
+
+### Video (Output).
+A video of my implementation can be found in: !["video"](./videos/final_video.mp4).
+
